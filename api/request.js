@@ -1,7 +1,6 @@
 const axios = require('axios')
 const get = function(config){
-    console.log('get')
-    return axios.get(config).then(res=>{
+    return axios.get(encodeURI(config)).then(res=>{
         if(res.status===200){
             return res.data
         }
@@ -11,8 +10,8 @@ const get = function(config){
     })
 }
 
-const post = function(config){
-    return axios.post(config).then(res=>{
+const post = function(url,config){
+    return axios.post(url,config).then(res=>{
         if(res.status===200){
             return res.data
         }

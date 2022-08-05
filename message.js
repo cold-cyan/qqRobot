@@ -3,7 +3,7 @@ const {
     adminUser,
     robot,
     keyword,
-    commandAll
+    systemAll
 } = require('./userConfig');
 const {
     segment
@@ -11,43 +11,58 @@ const {
 const {
     RandomNum
 } = require('./utils')
+
+const {
+    getMusic
+} = require('./api/music')
+
+const getImages = require('./src/image')
+
 const oldMsg = null;
 
 const {
     searchImage,
     randomImage
-} = require('./api/image')
+} = require('./api/image');
 
 module.exports = function (msg, bot) {
     const {
         sender,
         group_id,
-        raw_message
-    } = msg
+        raw_message,
+        message
+    } = msg;
+    let speakText = ""
+    message.forEach(item=>{
+        if(item.type === 'text'){
+            speakText = item.text
+            return
+        }
+    })
     if (GCWL.indexOf(group_id.toString()) !== -1) {
         const reg = new RegExp(`^[${keyword}]`)
-        if (reg.test(raw_message)) {
-            let isFlag = false
-            commandAll.forEach(item => {
-                if (raw_message.indexOf(item) !== -1) {
+        if (reg.test(speakText.trim())) {
+            let isFlag = false;
+            const shell = speakText.substring(speakText.indexOf('&'));
+            systemAll.forEach(item => {
+                if (speakText.includes(item)) {
                     isFlag = true
                 }
             })
-            if(!isFlag) {
+            if (!isFlag) {
                 msg.group.sendMsg('暂无此命令');
                 return
             }
             try {
-                if (raw_message.indexOf('你好') !== -1) {
+                if (speakText.includes('你好')) {
                     msg.reply(`你好啊${sender.nickname},我是小绫,一只刚诞生不久的(智障?)机器人(◦˙▽˙◦)`, true)
                 }
-                if (raw_message.indexOf('你是谁') !== -1 || raw_message.indexOf('你叫什么') !== -1) {
+                if (speakText.includes('你是谁')|| speakText.includes('你叫什么')) {
                     msg.reply(`我是小绫,一只刚诞生不久的(智障?)机器人(◦˙▽˙◦),请多关照！`, true)
                 }
-                if (raw_message.indexOf('早上好') !== -1) {
+                if (speakText.includes('早上好')) {
                     let date = new Date();
                     let houes = date.getHours()
-                    console.log("1111**")
                     let messageList = [];
                     switch (true) {
                         case houes < 11 && houes > 6:
@@ -63,22 +78,21 @@ module.exports = function (msg, bot) {
                     msg.reply(messageList[RandomNum(0, messageList.length - 1)], true)
                     // msg.reply(`你好啊${sender.nickname},我是小绫,一只刚诞生不久的(智障?)机器人(◦˙▽˙◦)`,true)
                 }
-                if (raw_message.indexOf('时间') !== -1 || raw_message.indexOf('当前时间') !== -1) {
+                if (speakText.includes('时间') || speakText.includes('当前时间')) {
                     let date = new Date()
                     msg.reply(`现在是北京时间：${date.getHours()}时${date.getMinutes()}分${date.getSeconds()}秒`, true)
                 }
-                //需要管理员权限
-
-                if (raw_message.indexOf('申请禁言') !== -1) {
+                if (speakText.includes('申请禁言')) {
+                    //需要管理员权限
                     if (msg.group.is_admin) {
-                        let timeList = raw_message.match(/\d+/g)
+                        let timeList = speakText.match(/\d+/g)
                         if (timeList && timeList.length > 0) {
-                            if (raw_message.indexOf('时') !== -1 || raw_message.indexOf('小时') !== -1) {
+                            if (speakText.includes('时') || speakText.includes('小时')) {
                                 // Number(timeList[0])
                                 msg.group.muteMember(sender.user_id, 60 * 60 * Number(timeList[0]))
-                            } else if (raw_message.indexOf('分') !== -1 || raw_message.indexOf('分钟') !== -1) {
+                            } else if (speakText.includes('分') || speakText.includes('分钟')) {
                                 msg.group.muteMember(sender.user_id, 60 * Number(timeList[0]))
-                            } else if (raw_message.indexOf('秒') !== -1) {
+                            } else if (speakText.includes('秒')) {
                                 msg.group.muteMember(sender.user_id, Number(timeList[0]))
                             } else {
                                 msg.group.muteMember(sender.user_id, 60 * Number(timeList[0]))
@@ -90,57 +104,31 @@ module.exports = function (msg, bot) {
                         msg.group.sendMsg([`很遗憾,${robot}暂无禁言的权限哦~(╥﹏╥)~`])
                     }
                 }
-                if (raw_message.indexOf('图片') !== -1) {
-                    randomImage().then(res => {
-                        const {
-                            data: {
-                                rows
-                            },
-                            code,
-                            message
-                        } = res
-                        if (code === 0) {
-                            const random = RandomNum(0, rows.length - 1)
-
-                            function isCartoonTag(list) {
-                                if (list[RandomNum(0, list.length - 1)].tags.indexOf('漫画') !== -1) {
-                                    return isCartoonTag(list)
-                                }
-                                return list[RandomNum(0, list.length - 1)]
-                            }
-                            const row = isCartoonTag(rows)
-                            msg.reply([`图片原始链接:${row.original_url}`, segment.image(row.original_url)], true)
-                        }
-                    })
+                if(speakText.includes('图')){
+                    getImages(msg,shell)
                 }
-                if (raw_message.indexOf('搜索图片') !== -1 || raw_message.indexOf('搜图') !== -1) {
-                    let splitList = raw_message.indexOf('搜索图片') !== -1?raw_message.split('搜索图片'):raw_message.split('搜图')
-                        text = splitList[splitList.length - 1].trim();
-                    searchImage(text).then(res => {
-                        const {
-                            data: {
-                                rows
-                            },
-                            code,
-                            message
-                        } = res
-                        if (code === 0) {
-                            const random = RandomNum(0, rows.length - 1)
-
-                            function isCartoonTag(list) {
-                                if (list[RandomNum(0, list.length - 1)].tags.indexOf('漫画') !== -1&&list[RandomNum(0, list.length - 1)].tags.indexOf(text)!==-1) {
-                                    return isCartoonTag(list)
-                                }
-                                return list[RandomNum(0, list.length - 1)]
+                if (speakText.includes('搜索歌曲')|| speakText.includes('搜歌')|| speakText.includes('音乐')) {
+                    const textList = speakText.includes('搜索歌曲') ? speakText.split('搜索歌曲') : speakText.includes('搜歌') ? speakText.split('搜歌'):speakText.split('音乐'),
+                        songName = textList.length>1?textList[textList.length - 1].trim():''
+                    if (songName.length>0) {
+                        getMusic(songName).then(res => {
+                            const {
+                                status,
+                                data
+                            } = res;
+                            if (data.info.length > 0) {
+                                msg.group.shareMusic('kugou', data.info[0].hash)
+                            } else {
+                                msg.reply(`无搜索结果,请更换关键词尝试`, true)
                             }
-                            const row = isCartoonTag(rows)
-                            console.log(row,'row')
-                            msg.reply([`图片原始链接:${row.original_url}`, segment.image(row.original_url)], true)
-                        }
-                    })
+                        })
+                    } else {
+                        msg.reply(`请输入正确的歌曲名称！`, true)
+                    }
                 }
             } catch (error) {
                 msg.reply(['系统出错啦,请等待维护人员查看', segment.face(104), segment.at(adminUser), '⁽⁽ƪ(•̩̩̩̩＿•̩̩̩̩)ʃ⁾⁾ᵒᵐᵍᵎᵎ'], true)
+                console.error('err:',error)
             }
             oldMsg = msg
         }

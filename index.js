@@ -11,7 +11,6 @@ bot
 	})
 })
 .login(pass)
-
 exports.bot = bot
 
 // template plugins
