@@ -1,0 +1,26 @@
+<td colspan="2" class="decisive" style="background:linear-gradient(135deg,#59AE6A,#48AE96,#60D9EC,#65A5D5,#9491E0,#C382A4)"><span class="tjmode0"><b>技能</b></span><span class="tjmode1" style="display:none"><b>改造技能</b></span><span class="tjmode2" style="display:none"><b>改造技能</b></span>
+</td><td style="width:30%;font-weight:bold;background:pink"><span class="noselect nopoint"><img alt="Skillicon 风斩雷逸.png" src="https://patchwiki.biligame.com/images/blhx/thumb/4/45/lwol3adb3doq28xwruzogblehusl41p.png/64px-Skillicon_%E9%A3%8E%E6%96%A9%E9%9B%B7%E9%80%B8.png" decoding="async" width="64" height="64" srcset="https://patchwiki.biligame.com/images/blhx/thumb/4/45/lwol3adb3doq28xwruzogblehusl41p.png/96px-Skillicon_%E9%A3%8E%E6%96%A9%E9%9B%B7%E9%80%B8.png 1.5x, https://patchwiki.biligame.com/images/blhx/4/45/lwol3adb3doq28xwruzogblehusl41p.png 2x" data-file-width="128" data-file-height="128"></span><br>风斩雷逸
+</td><td style="text-align:left;">自身装备的鱼雷武器发动时，触发一轮特殊弹幕Lv.1（Lv.10）被特殊弹幕中的斩击命中的敌人3秒内受到来自岛风的攻击伤害额外提高3.5%（8.0%），特殊弹幕中的鱼雷会对命中的敌人附加特殊进水效果，持续6秒（进水效果每3秒结算一次，每次结算造成179点伤害，弹幕威力及样式依据技能等级）
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能1名改造}}}.png|64px|link=]]</span><br>{{{技能1名改造}}}
+</td><td style="text-align:left;">{{{技能1改造}}}
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能1名改造}}}.png|64px|link=]]</span><br>{{{技能1名改造}}}
+</td><td style="text-align:left;">{{{技能1改造}}}
+</td><td style="width:30%;font-weight:bold;background:pink"><span class="noselect nopoint"><img alt="Skillicon 雷光石火.png" src="https://patchwiki.biligame.com/images/blhx/thumb/0/09/qv4yldifmq7kjpmrpxk2kh1bks608mq.png/64px-Skillicon_%E9%9B%B7%E5%85%89%E7%9F%B3%E7%81%AB.png" decoding="async" width="64" height="64" srcset="https://patchwiki.biligame.com/images/blhx/thumb/0/09/qv4yldifmq7kjpmrpxk2kh1bks608mq.png/96px-Skillicon_%E9%9B%B7%E5%85%89%E7%9F%B3%E7%81%AB.png 1.5x, https://patchwiki.biligame.com/images/blhx/0/09/qv4yldifmq7kjpmrpxk2kh1bks608mq.png 2x" data-file-width="128" data-file-height="128"></span><br>雷光石火
+</td><td style="text-align:left;">战斗开始及自身装备的鱼雷武器装填完成后10秒内，自身受到的伤害降低5.0%（15.0%），自身装备的鱼雷武器造成的伤害提高4.5%（12.0%），自身所在队伍的先锋舰队成员航速提高3
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能2名改造}}}.png|64px|link=]]</span><br>{{{技能2名改造}}}
+</td><td style="text-align:left;">{{{技能2改造}}}
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能2名改造}}}.png|64px|link=]]</span><br>{{{技能2名改造}}}
+</td><td style="text-align:left;">{{{技能2改造}}}
+</td><td style="width:30%;font-weight:bold;background:gold"><span class="noselect nopoint"><img alt="Skillicon 迅光雷袭.png" src="https://patchwiki.biligame.com/images/blhx/thumb/4/47/mnyplry0cdcmivlyr764m15ayy3rrzd.png/64px-Skillicon_%E8%BF%85%E5%85%89%E9%9B%B7%E8%A2%AD.png" decoding="async" width="64" height="64" srcset="https://patchwiki.biligame.com/images/blhx/thumb/4/47/mnyplry0cdcmivlyr764m15ayy3rrzd.png/96px-Skillicon_%E8%BF%85%E5%85%89%E9%9B%B7%E8%A2%AD.png 1.5x, https://patchwiki.biligame.com/images/blhx/4/47/mnyplry0cdcmivlyr764m15ayy3rrzd.png 2x" data-file-width="128" data-file-height="128"></span><br>迅光雷袭
+</td><td style="text-align:left;">战斗中，自身命中提高5.0%（15.0%）、战斗中自身受到的雷击属性伤害降低10%；关卡海域内其他编队进入战斗时，若自身存活，战斗开始后30秒发动一轮雷击支援Lv.1（Lv.10）（弹幕威力依据技能等级），若该编队中含有任意驱逐舰，战斗开始时提高该队伍中驱逐舰的雷击属性1.0%（10.0%）
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能3名改造}}}.png|64px|link=]]</span><br>{{{技能3名改造}}}
+</td><td style="text-align:left;">{{{技能3改造}}}
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能3名改造}}}.png|64px|link=]]</span><br>{{{技能3名改造}}}
+</td><td style="text-align:left;">{{{技能3改造}}}
+</td><td style="width:30%;font-weight:bold;background:pink"><span class="noselect nopoint"><img alt="Skillicon 专属弹幕-岛风.png" src="https://patchwiki.biligame.com/images/blhx/thumb/1/11/h1v0cwyaei0afl7cmvxyl9g5ogly21l.png/64px-Skillicon_%E4%B8%93%E5%B1%9E%E5%BC%B9%E5%B9%95-%E5%B2%9B%E9%A3%8E.png" decoding="async" width="64" height="64" srcset="https://patchwiki.biligame.com/images/blhx/thumb/1/11/h1v0cwyaei0afl7cmvxyl9g5ogly21l.png/96px-Skillicon_%E4%B8%93%E5%B1%9E%E5%BC%B9%E5%B9%95-%E5%B2%9B%E9%A3%8E.png 1.5x, https://patchwiki.biligame.com/images/blhx/1/11/h1v0cwyaei0afl7cmvxyl9g5ogly21l.png 2x" data-file-width="128" data-file-height="128"></span><br>专属弹幕-岛风I（II）
+</td><td style="text-align:left;">主炮每次进行15（10）次攻击，触发专属弹幕-岛风I（II）
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能4名改造}}}.png|64px|link=]]</span><br>{{{技能4名改造}}}
+</td><td style="text-align:left;">{{{技能4改造}}}
+</td><td style="width:30%;font-weight:bold;background:"><span class="noselect nopoint">[[文件:skillicon_{{{技能4名改造}}}.png|64px|link=]]</span><br>{{{技能4名改造}}}
+</td><td style="text-align:left;">{{{技能4改造}}}
+</td>

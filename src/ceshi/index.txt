@@ -1,0 +1,95 @@
+<td colspan="6">
+    <div style="display:flex">
+        <div class="tjmode0btn" style="cursor:pointer;width:50%;"><img alt="ShipType-驱逐.png"
+                src="https://patchwiki.biligame.com/images/blhx/thumb/d/dc/smhtkzq2kxrc1seedyp9implsumjbcc.png/30px-ShipType-%E9%A9%B1%E9%80%90.png"
+                decoding="async" width="30" height="18"
+                srcset="https://patchwiki.biligame.com/images/blhx/thumb/d/dc/smhtkzq2kxrc1seedyp9implsumjbcc.png/45px-ShipType-%E9%A9%B1%E9%80%90.png 1.5x, https://patchwiki.biligame.com/images/blhx/d/dc/smhtkzq2kxrc1seedyp9implsumjbcc.png 2x"
+                data-file-width="52" data-file-height="32">驱逐-无改</div>
+        <div class="tjmode1btn" style="cursor:pointer;width:50%;font-weight:bold;"><img alt="ShipType-驱逐.png"
+                src="https://patchwiki.biligame.com/images/blhx/thumb/d/dc/smhtkzq2kxrc1seedyp9implsumjbcc.png/30px-ShipType-%E9%A9%B1%E9%80%90.png"
+                decoding="async" width="30" height="18"
+                srcset="https://patchwiki.biligame.com/images/blhx/thumb/d/dc/smhtkzq2kxrc1seedyp9implsumjbcc.png/45px-ShipType-%E9%A9%B1%E9%80%90.png 1.5x, https://patchwiki.biligame.com/images/blhx/d/dc/smhtkzq2kxrc1seedyp9implsumjbcc.png 2x"
+                data-file-width="52" data-file-height="32">驱逐-改造</div>
+    </div>
+</td>
+<td colspan="2" style="background:#ae90ef"><span class="tjmode0" style="display:none"><b>技能</b></span><span
+        class="tjmode1"><b>改造技能</b></span><span class="tjmode2" style="display:none"><b>改造技能</b></span>
+</td>
+<td style="width:30%;font-weight:bold;background:pink"><span class="noselect nopoint"><img alt="Skillicon 所罗门的战神.png"
+            src="https://patchwiki.biligame.com/images/blhx/thumb/a/ab/neo3pnslri9lm3bvly2yli114w1ulmz.png/64px-Skillicon_%E6%89%80%E7%BD%97%E9%97%A8%E7%9A%84%E6%88%98%E7%A5%9E.png"
+            decoding="async" width="64" height="64"
+            srcset="https://patchwiki.biligame.com/images/blhx/thumb/a/ab/neo3pnslri9lm3bvly2yli114w1ulmz.png/96px-Skillicon_%E6%89%80%E7%BD%97%E9%97%A8%E7%9A%84%E6%88%98%E7%A5%9E.png 1.5x, https://patchwiki.biligame.com/images/blhx/a/ab/neo3pnslri9lm3bvly2yli114w1ulmz.png 2x"
+            data-file-width="128" data-file-height="128"></span><br>所罗门的战神
+</td>
+<td style="text-align:left;">炮击时有5%概率发动，8秒内自身炮击、装填、机动属性提升20.0%（40.0%）<br><b>（专属特殊兵装强化）</b><br><span
+        class="noselect nopoint"><img alt="Skillicon 所罗门的战神+.png"
+            src="https://patchwiki.biligame.com/images/blhx/thumb/a/ab/neo3pnslri9lm3bvly2yli114w1ulmz.png/30px-Skillicon_%E6%89%80%E7%BD%97%E9%97%A8%E7%9A%84%E6%88%98%E7%A5%9E.png"
+            decoding="async" width="30" height="30"
+            srcset="https://patchwiki.biligame.com/images/blhx/thumb/a/ab/neo3pnslri9lm3bvly2yli114w1ulmz.png/45px-Skillicon_%E6%89%80%E7%BD%97%E9%97%A8%E7%9A%84%E6%88%98%E7%A5%9E.png 1.5x, https://patchwiki.biligame.com/images/blhx/thumb/a/ab/neo3pnslri9lm3bvly2yli114w1ulmz.png/60px-Skillicon_%E6%89%80%E7%BD%97%E9%97%A8%E7%9A%84%E6%88%98%E7%A5%9E.png 2x"
+            data-file-width="128" data-file-height="128"></span><span
+        style="background:pink"><b>所罗门的战神+</b></span>：炮击有5%概率发动，8秒内自身炮击、装填、机动属性提升20.0%（40.0%）；战斗开始时，回复自身耐久4.0%（10.0%），并在8秒内降低自身航速，该效果结束后，自身炮击、雷击属性提高4.5%（12.0%），持续至战斗结束
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能1名改造}}}.png|64px|link=]]</span><br>{{{技能1名改造}}}
+</td>
+<td style="text-align:left;">{{{技能1改造}}}
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能1名改造}}}.png|64px|link=]]</span><br>{{{技能1名改造}}}
+</td>
+<td style="text-align:left;">{{{技能1改造}}}
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能2名}}}.png|64px|link=]]</span><br>{{{技能2名}}}
+</td>
+<td style="text-align:left;">{{{技能2}}}
+</td>
+<td style="width:30%;font-weight:bold;background:pink"><span class="noselect nopoint"><img alt="Skillicon 歼灭模式.png"
+            src="https://patchwiki.biligame.com/images/blhx/thumb/9/9f/scltjweg5bb8vg3tuqh3fp5bwlbyu2n.png/64px-Skillicon_%E6%AD%BC%E7%81%AD%E6%A8%A1%E5%BC%8F.png"
+            decoding="async" width="64" height="64"
+            srcset="https://patchwiki.biligame.com/images/blhx/thumb/9/9f/scltjweg5bb8vg3tuqh3fp5bwlbyu2n.png/96px-Skillicon_%E6%AD%BC%E7%81%AD%E6%A8%A1%E5%BC%8F.png 1.5x, https://patchwiki.biligame.com/images/blhx/9/9f/scltjweg5bb8vg3tuqh3fp5bwlbyu2n.png 2x"
+            data-file-width="128" data-file-height="128"></span><br>歼灭模式
+</td>
+<td style="text-align:left;">每20秒，有40.0%（70.0%）概率开启歼灭模式，装填提升200%，持续10秒，同时发射强力弹幕。
+</td>
+<td style="width:30%;font-weight:bold;background:pink"><span class="noselect nopoint"><img alt="Skillicon 歼灭模式.png"
+            src="https://patchwiki.biligame.com/images/blhx/thumb/9/9f/scltjweg5bb8vg3tuqh3fp5bwlbyu2n.png/64px-Skillicon_%E6%AD%BC%E7%81%AD%E6%A8%A1%E5%BC%8F.png"
+            decoding="async" width="64" height="64"
+            srcset="https://patchwiki.biligame.com/images/blhx/thumb/9/9f/scltjweg5bb8vg3tuqh3fp5bwlbyu2n.png/96px-Skillicon_%E6%AD%BC%E7%81%AD%E6%A8%A1%E5%BC%8F.png 1.5x, https://patchwiki.biligame.com/images/blhx/9/9f/scltjweg5bb8vg3tuqh3fp5bwlbyu2n.png 2x"
+            data-file-width="128" data-file-height="128"></span><br>歼灭模式
+</td>
+<td style="text-align:left;">每20秒，有40.0%（70.0%）概率开启歼灭模式，装填提升200%，持续10秒，同时发射强力弹幕。
+</td>
+<td style="width:30%;font-weight:bold;background:pink"><span class="noselect nopoint"><img alt="Skillicon 专属弹幕-拉菲.png"
+            src="https://patchwiki.biligame.com/images/blhx/thumb/7/70/58rw6sx2lprcm1ew1i42bbsnuv6br4z.png/64px-Skillicon_%E4%B8%93%E5%B1%9E%E5%BC%B9%E5%B9%95-%E6%8B%89%E8%8F%B2.png"
+            decoding="async" width="64" height="64"
+            srcset="https://patchwiki.biligame.com/images/blhx/thumb/7/70/58rw6sx2lprcm1ew1i42bbsnuv6br4z.png/96px-Skillicon_%E4%B8%93%E5%B1%9E%E5%BC%B9%E5%B9%95-%E6%8B%89%E8%8F%B2.png 1.5x, https://patchwiki.biligame.com/images/blhx/7/70/58rw6sx2lprcm1ew1i42bbsnuv6br4z.png 2x"
+            data-file-width="128" data-file-height="128"></span><br>专属弹幕-拉菲I（II）
+</td>
+<td style="text-align:left;">主炮每进行15（10）次攻击，触发专属弹幕-拉菲I（II）
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能3名改造}}}.png|64px|link=]]</span><br>{{{技能3名改造}}}
+</td>
+<td style="text-align:left;">{{{技能3改造}}}
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能3名改造}}}.png|64px|link=]]</span><br>{{{技能3名改造}}}
+</td>
+<td style="text-align:left;">{{{技能3改造}}}
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能4名}}}.png|64px|link=]]</span><br>{{{技能4名}}}
+</td>
+<td style="text-align:left;">{{{技能4}}}
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能4名改造}}}.png|64px|link=]]</span><br>{{{技能4名改造}}}
+</td>
+<td style="text-align:left;">{{{技能4改造}}}
+</td>
+<td style="width:30%;font-weight:bold;background:"><span
+        class="noselect nopoint">[[文件:skillicon_{{{技能4名改造}}}.png|64px|link=]]</span><br>{{{技能4名改造}}}
+</td>
+<td style="text-align:left;">{{{技能4改造}}}
+</td>

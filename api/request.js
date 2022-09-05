@@ -20,7 +20,6 @@ const post = function(url,config){
         return Promise.reject(rej)
     })
 }
-
 module.exports = {
     get,
     post

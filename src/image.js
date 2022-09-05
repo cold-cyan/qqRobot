@@ -10,9 +10,6 @@ const {
 const {
     RandomNum
 } = require('../utils');
-const {
-    url
-} = require('inspector');
 
 const noData = (msg, list) => {
     if (list.length < 1) {
